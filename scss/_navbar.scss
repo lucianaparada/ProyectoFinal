@@ -1,0 +1,27 @@
+nav {
+    text-transform: uppercase;
+    font-family: $variableTexto;
+    font-size: 16px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    div{
+        @include flexCenter;
+       ul li{
+        display: flex;
+	    justify-content: space-between; 
+	    align-items: center;
+        padding: 0 30px;
+       } 
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colorSecundario;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+color: $highlight;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #000;
+    }

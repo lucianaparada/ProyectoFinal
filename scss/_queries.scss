@@ -1,0 +1,90 @@
+@media only screen and (max-width: 1400px){
+    .form{
+      margin-top: 40px;
+    }
+    .formulario p{
+      font-size: 60px;
+      line-height: 60px;
+    }
+    }
+    @media only screen and (max-width: 1200px) {
+      .descripcion{
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+      .descripcion-texto{
+          padding-left: 0;    
+    }
+      .tituloDestacado{
+        text-align: center;
+      }
+      .productosRecomendados h3{
+        text-align: center;
+      }
+      .col-img-monstera{
+        display: none;
+      }
+      .titleImg h2{
+        font-size: 175px;
+        line-height: 175px;
+      }
+      .formulario p{
+        font-size: 62px;
+        line-height: 62px;
+      }
+      footer{
+        text-align: center;
+        padding: 0;
+      }
+    }
+    @media only screen and (max-width: 768px) {
+      .descripcion{
+        padding: 0 35px;
+      }
+      .tituloDestacado{
+        font-size:72px;
+        padding: 15px 15px 15px 0;
+      }
+      .productosRecomendados h3{
+        text-align: center;
+        font-size: 64px;
+      }
+      .titleImg h2{
+        font-size: 120px;
+        line-height: 120px;
+      }
+      footer{
+        text-align: center;
+        padding: 0;
+      }
+    }
+    
+    @media only screen and (max-width: 768px){
+      .testimonial-text .box{
+        width: 80%;
+        text-align: center;
+      }
+      .testimonial-text img{
+        align-self: center;
+      }
+      .productosCategoria article{
+        width: 300px;
+      }
+      .productosCategoria h1{
+        font-size: 48px;
+      }
+      .productosCategoria img{
+        width: 120px;
+        margin-top: 20px;
+      }
+      .formulario p{
+        font-size: 48px;
+        line-height: 48px;
+      }
+      .gracias p {
+        font-size: 60px;
+        line-height: 60px;
+      }
+    }
+    

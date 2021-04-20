@@ -1,0 +1,81 @@
+$colorPrimario: #a96635;
+$colorSecundario: #3b3838;
+$variableTexto: 'Roboto', sans-serif;
+$variableTitulo: 'Playfair Display', serif;
+$highlight: #fa944a;
+
+@mixin flexCenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+@mixin titulos {
+	font-size: 82px;
+	line-height: 110px;
+	font-family: $variableTitulo;
+}
+
+@mixin parrafos {
+	padding: 20px 40px 20px 0;
+	font-size: 20px;
+	font-family: $variableTexto;
+}
+
+@mixin btn-primario {
+	padding: 20px 40px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-family: $variableTexto;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	background-color: $colorSecundario;
+	color:$colorPrimario;
+	border: 1px solid $colorSecundario;
+}
+
+@mixin btn-secundario {
+	padding: 20px 40px;
+	margin-right: 10px;
+	text-transform: uppercase;
+	font-family: $variableTexto;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	background-color: $colorPrimario;
+	color: $colorSecundario;
+	border: 1px solid $colorSecundario;
+}
+
+@mixin btn-highlight {
+	padding: 10px 25px;
+	text-transform: uppercase;
+	font-family: $variableTexto;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 4px;
+	background-color: $highlight;
+	color: $colorSecundario;
+	border: 1px solid $highlight;
+}
+
+* {
+	margin: 0px;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: $colorPrimario;
+	font-family: $variableTexto;
+	color: $colorSecundario;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+
